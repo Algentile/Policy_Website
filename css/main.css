@@ -125,7 +125,6 @@ html {
 }
 
 .slideOverlay {
-    background-image: url(img/Mystic.png);
     background-attachment: fixed;
     position: absolute;
     width: 100%;
@@ -134,7 +133,13 @@ html {
     left: 0;
 }
 
+.text {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .slideOverlay div {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     font-size: 6vw;
     color: #fff;
@@ -152,23 +157,81 @@ html {
 
 .section-full-width-container {
     width: 100vw;
-    height: 20vh;
+    height: 17vh;
     max-width: 100%;
     clear: both;
     margin: 0 auto;
-    background-color: #C4DBF6;
+    background-color: #AFEEEE;
 }
 
 .section-header {
     text-align: center;
-    padding: 30px 30px 0 30px;
+    font-size: 6vw;
+    padding: 10px, 10px, 10px, 10px;
+    font-family: 'Paytone One', sans-serif;
 }
 
 .sub-section-header {
     text-align: center;
+    font-size: 3vw;
     align-content: center
+    font-family: 'Paytone One', sans-serif;
 }
 
 .sub-section-text {
     text-align: center;
+    padding: 10em, 10em, 10em, 10em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    margin: 20vh;
+    box-sizing: border-box;
+}
+
+.first-parallax-container { 
+    /* The image used */
+    background-image: url("img/vietnam_area.jpg");
+
+    /* Full height */
+    height: 50vh;
+    width: 100vw; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-parallax-container { 
+    /* The image used */
+    background-image: url("img/protest.png");
+
+    /* Full height */
+    height: 50vh;
+    width: 100vw; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-content-container {
+    font-family: 'Space Mono', monospace;
+    font-size: 2vw;
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+
+.major-content-container {
+    font-family: 'Space Mono', monospace;
+    margin: 30px;
+    font-size: 2vw;
+    text-align: center;
+    align-content: center;
+    position: relative;
 }
