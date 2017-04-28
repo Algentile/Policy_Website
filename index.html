@@ -22,19 +22,19 @@
 </head>
 
 <body>
-    <div class="slideShow">
+    <div class="slideShow"> 
         <img class="placeHolder" src="img/vietnam.jpg" alt="my slideshow">
         <div class="layer1"></div>
         <div class="layer2"></div>
         <div class="layer3"></div>
-         <div class="slideOverlay">
-            
-         </div>
-          <div class="container">
-                 <div class="row">
-                     <div class="one-third-column">hello</div>
-                 </div>
-             </div>
+        <div class="slideOverlay">
+            <div>
+            <p>Foreign Policy</p>
+            <p>Vietnam Human Rights</p>
+            <div><button class="button-primary">Review Policy</button></div>
+            </div>
+            <!-- <button class="button-primary">Policy Information</button> -->
+        </div>
     </div>
     <!--Start of Policy factors -->
     <div class="container">
@@ -66,5 +66,13 @@
             </div>
         </div>
 </body>
+<script>
+$("button").click(function() {
+    $('html,body').animate({
+            scrollTop: $(".Policy").offset().top
+        },
+        'slow');
+});
+</script>
 
 </html>
