@@ -141,7 +141,8 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    font-size: 6vw;
+    font-size: 7vw;
+    font-weight: bold;
     color: #fff;
     text-shadow: 3px 3px 6px #000;
     text-align: center;
@@ -161,7 +162,7 @@ html {
     max-width: 100%;
     clear: both;
     margin: 0 auto;
-    background-color: #AFEEEE;
+    background-color: #97d700 ;
 }
 
 .section-header {
@@ -194,7 +195,7 @@ html {
     background-image: url("img/vietnam_area.jpg");
 
     /* Full height */
-    height: 50vh;
+    height: 60vh;
     width: 100vw; 
 
     /* Create the parallax scrolling effect */
@@ -209,7 +210,7 @@ html {
     background-image: url("img/protest1.jpg");
 
     /* Full height */
-    height: 50vh;
+    height: 60vh;
     width: 100vw; 
 
     /* Create the parallax scrolling effect */
@@ -234,4 +235,8 @@ html {
     text-align: center;
     align-content: center;
     position: relative;
+}
+
+.overlay-text {
+    font-family: 'Open Sans', sans-serif;
 }

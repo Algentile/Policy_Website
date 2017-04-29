@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Open+Sans|Paytone+One|Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Open+Sans|Paytone+One|Space+Mono|Roboto" rel="stylesheet">
     <!-- CSS
    –––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -29,16 +29,16 @@
         <div class="layer3"></div>
         <div class="slideOverlay">
             <div>
-                <p style="font-family: 'Paytone One', sans-serif;">Foreign Policy</p>
-                <p style="font-family: 'Paytone One', sans-serif;">Vietnam Human Rights</p>
+                <p class="overlay-text">Foreign Policy</p>
+                <p class="overlay-text">Vietnam Human Rights</p>
                 <div>
-                    <button class="button-primary">Review Policy</button>
+                    <button class="button-primary">More Information</button>
                 </div>
             </div>
         </div>
     </div>
     <!--Start of Policy factors -->
-    <div class="container">
+    <div class="container policy">
         <div class="row">
             <div class="two-half column">
                 <h3 class="section-header">Policy Factors</h4>
@@ -51,7 +51,7 @@
                 <img src="img/svg/001-coin.svg" class="logo">
                 </div>
                 <h4 class="sub-section-header text">Economy</h4>
-                <p class="sub-section-text text">Aenean ac ipsum non purus sagittis tincidunt. Sed leo purus, facilisis et posuere id, scelerisque feugiat massa. Donec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor anteDonec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor anteDonec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor ante Donec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor ante  </p>
+                <p class="sub-section-text text"> Aenean ac ipsum non purus sagittis tincidunt. Sed leo purus, facilisis et posuere id, scelerisque feugiat massa. Donec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor anteDonec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor anteDonec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor ante Donec nec pellentesque lorem. Morbi posuere arcu sit amet leo elementum, ut porttitor ante </p>
             </div>
             <div class="one-third column">
                 <div class="logo-container">
@@ -81,45 +81,45 @@
                 <div class="row">
                     <div class="one-half column">
                         <div class="list-content-container">
-                            <h4>Weaknesses</h4>
+                            <h4>Advantages</h4>
                             <ul>
-                                <li>weakness</li>
-                                <li>weakness</li>
-                                <li>weakness</li>
-                                <li>weakness</li>
-                                <li>weakness</li>
-                                <li>weakness</li>
-                                <li>weakness</li>
+                                <li>Advantage</li>
+                                <li>Advantage</li>
+                                <li>Advantage</li>
+                                <li>Advantage</li>
+                                <li>Advantage</li>
+                                <li>Advantage</li>
+                                <li>Advantage</li>
                             </ul>
                         </div>
                     </div>
                     <div class="one-half column">
                         <div class="list-content-container">
-                            <h4>Strengths</h4>
+                            <h4>Disadvantages</h4>
                             <ul>
-                                <li>Strength</li>
-                                <li>Strength</li>
-                                <li>Strength</li>
-                                <li>Strength</li>
-                                <li>Strength</li>
-                                <li>Strength</li>
-                                <li>Strength</li>
+                                <li>Disadvantage</li>
+                                <li>Disadvantage</li>
+                                <li>Disadvantage</li>
+                                <li>Disadvantage</li>
+                                <li>Disadvantage</li>
+                                <li>Disadvantage</li>
+                                <li>Disadvantage</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Start of the Second parallax section-->
         <div class="second-parallax-container"></div>
+        <!-- End of Second parallax section -->
+        <!-- Start of outreach section -->
+        <div class="section-header">Get Involved</div>
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
 </body>
-<script>
-$("button").click(function() {
-    $('html,body').animate({
-            scrollTop: $(".Policy").offset().top
-        },
-        'slow');
-});
-</script>
-
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/button-scroll.js"></script>
 </html>
