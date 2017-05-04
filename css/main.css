@@ -194,7 +194,7 @@ html {
 
 .section-full-width-container {
     width: 100vw;
-    height: 20vh;
+    height: 100vh;
     max-width: 100%;
     clear: both;
     margin: 0 auto;
