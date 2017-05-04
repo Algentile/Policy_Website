@@ -171,6 +171,11 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.policy-factors-container {
+    width: 100vw;
+    height:100vh;
+}
+
 .slideOverlay div {
     position: relative;
     font-weight: bold;
@@ -291,4 +296,13 @@ html {
     padding: 1rem;
     background-color: #2f2933;
     text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 1vw;
+    padding-top: 8vh;
+    font-size: 1.5vw;
 }
