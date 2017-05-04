@@ -77,10 +77,34 @@ html {
     height: 12vh;
 }
 
+.social {
+    align-content: right;
+}
+
 .social-logo {
     width: 30vw;
     height: 50vh;
     padding-top: 19vh;
+}
+
+.facebook-social-small {
+    width: 3vw;
+    height: 2vh;
+    top: 10vh;
+    left: 91vw;
+    height: 5vh;
+    bottom: 30vh;
+    position: absolute;
+}
+
+.twitter-social-small {
+    width: 3vw;
+    height: 2vh;
+    top: 10vh;
+    left: 95vw;
+    height: 5vh;
+    bottom: 30vh;
+    position: absolute;
 }
 
 .logo-container {
@@ -140,8 +164,8 @@ html {
 }
 
 .fa:hover {
-    color: #C4C4C4;
-    border-color: #C4C4C4;
+    color: #BFEFFF;
+    border-color: #BFEFFF;
 }
 
 .fa-text {
@@ -173,7 +197,7 @@ html {
 
 .policy-factors-container {
     width: 100vw;
-    height:100vh;
+    height: 100vh;
 }
 
 .slideOverlay div {
@@ -266,6 +290,7 @@ html {
     align-content: center;
     position: relative;
 }
+
 .container {
     padding-top: 5vh;
 }
