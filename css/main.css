@@ -77,6 +77,12 @@ html {
     height: 12vh;
 }
 
+.social-logo {
+    width: 30vw;
+    height: 50vh;
+    padding-top: 19vh;
+}
+
 .logo-container {
     align-content: center;
     text-align: center;
@@ -258,7 +264,7 @@ html {
 
 .involved-section-container {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     max-width: 100%;
     clear: both;
     margin: 0 auto;
@@ -269,13 +275,20 @@ html {
     font-size: 6vw
 }
 
+.social-text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 1.5vw;
+}
+
 .footer-container {
-  position: relative;
-  height: 20vh;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #2f2933;
-  text-align: center;
+    position: relative;
+    height: 20vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #2f2933;
+    text-align: center;
 }
