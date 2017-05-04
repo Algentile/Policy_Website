@@ -1,4 +1,4 @@
-$("button").click(function() {
+$(".fa").click(function() {
     $('html,body').animate({
             scrollTop: $(".policy").offset().top
         },

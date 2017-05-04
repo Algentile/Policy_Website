@@ -133,15 +133,40 @@ html {
     left: 0;
 }
 
+.fa:hover {
+    color: #C4C4C4;
+    border-color: #C4C4C4;
+}
+
+.fa-text {
+    top: 77vh;
+    left: 41vw;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman' text-align: center;
+    display: inline-block;
+    position: absolute;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa {
+    top: 82vh;
+    display: inline-block;
+    font-size: 3vw;
+    position: absolute;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
 .text {
     font-family: 'Open Sans', sans-serif;
 }
 
 .slideOverlay div {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     position: relative;
-    font-size: 7vw;
     font-weight: bold;
     color: #fff;
     text-shadow: 3px 3px 6px #000;
@@ -158,11 +183,10 @@ html {
 
 .section-full-width-container {
     width: 100vw;
-    height: 17vh;
+    height: 20vh;
     max-width: 100%;
     clear: both;
     margin: 0 auto;
-    background-color: #97d700 ;
 }
 
 .section-header {
@@ -175,8 +199,7 @@ html {
 .sub-section-header {
     text-align: center;
     font-size: 3vw;
-    align-content: center
-    font-family: 'Paytone One', sans-serif;
+    align-content: center font-family: 'Paytone One', sans-serif;
 }
 
 .sub-section-text {
@@ -190,14 +213,12 @@ html {
     box-sizing: border-box;
 }
 
-.first-parallax-container { 
+.first-parallax-container {
     /* The image used */
     background-image: url("img/vietnam_area.jpg");
-
     /* Full height */
-    height: 60vh;
-    width: 100vw; 
-
+    height: 100vh;
+    width: 100vw;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -205,14 +226,12 @@ html {
     background-size: cover;
 }
 
-.second-parallax-container { 
+.second-parallax-container {
     /* The image used */
     background-image: url("img/protest1.jpg");
-
     /* Full height */
-    height: 60vh;
-    width: 100vw; 
-
+    height: 130vh;
+    width: 100vw;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -237,6 +256,26 @@ html {
     position: relative;
 }
 
+.involved-section-container {
+    width: 100vw;
+    height: 80vh;
+    max-width: 100%;
+    clear: both;
+    margin: 0 auto;
+}
+
 .overlay-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times New Roman';
+    font-size: 6vw
+}
+
+.footer-container {
+  position: relative;
+  height: 20vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #2f2933;
+  text-align: center;
 }
