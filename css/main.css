@@ -266,6 +266,9 @@ html {
     align-content: center;
     position: relative;
 }
+.container {
+    padding-top: 5vh;
+}
 
 .involved-section-container {
     width: 100vw;
