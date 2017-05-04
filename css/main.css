@@ -283,6 +283,7 @@ html {
     font-family: 'Space Mono', monospace;
     margin: 30px;
     font-size: 2vw;
+    height: 100vh;
     text-align: center;
     align-content: center;
     position: relative;
