@@ -72,6 +72,52 @@ html {
     }
 }
 
+.summary-section-button {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    top: 20vh;
+    left: 8vw;
+}
+
+.memo-section-button {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    top: 20vh;
+    left: 50vw;
+}
+
+.summary-section-text {
+    font-size: 1.1vw;
+    font-weight: 2vw;
+    font-family: 'Space Mono', monospace;
+    top: 8vh;
+    right: 46vw;
+    position: absolute;
+}
+
+
+.memo-section-text {
+    font-size: 1.1vw;
+    font-family: 'Space Mono', monospace;
+    top: 8vh;
+    left: 45vw;
+    position:absolute;
+}
+
+.document-container {
+    height:50vh;
+    width:100vw;
+    background-color: white;
+
+}
+
+.policy-sub-header {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    height: 3vh; 
+}
 
 .logo {
     width: 12vw;
@@ -163,6 +209,11 @@ html {
 .fa:hover {
     color: #BFEFFF;
     border-color: #BFEFFF;
+}
+
+.button:hover {
+    color: #003366;
+    border-color: #003366;
 }
 
 .fa-text {
@@ -282,8 +333,8 @@ html {
 .major-content-container {
     font-family: 'Space Mono', monospace;
     margin: 30px;
+    height:100vh;
     font-size: 2vw;
-    height: 100vh;
     text-align: center;
     align-content: center;
     position: relative;
